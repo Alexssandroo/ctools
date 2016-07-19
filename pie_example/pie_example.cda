@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDADescriptor>
+   <DataSources>
+      <Connection id="Teste03" type="scripting.scripting">
+         <Initscript/>
+         <Language>beanshell</Language>
+      </Connection>
+      <Connection id="Teste02" type="scripting.scripting">
+         <Initscript/>
+         <Language>beanshell</Language>
+      </Connection>
+      <Connection id="Teste" type="scripting.scripting">
+         <Initscript/>
+         <Language>beanshell</Language>
+      </Connection>
+   </DataSources>
+   <DataAccess access="public" connection="Teste03" id="Teste03" type="jsonScriptable">
+      <Name>Teste03</Name>
+      <Cache duration="3600" enabled="false"/>
+      <Columns/>
+      <Parameters/>
+      <Query><![CDATA[{
+   "resultset":[
+      ["Valor", 0.2],
+      ["Valor2", 0.8]
+   ],
+
+   "metadata":[
+      {"colIndex":0,"colType":"String","colName":"value"},
+      {"colIndex":1,"colType":"Numeric","colName":"name2"}
+   ]
+}]]></Query>
+   </DataAccess>
+   <DataAccess access="public" connection="Teste02" id="Teste02" type="jsonScriptable">
+      <Name>Teste02</Name>
+      <Cache duration="3600" enabled="false"/>
+      <Columns/>
+      <Parameters/>
+      <Query><![CDATA[{
+   "resultset":[
+      ["Valor", 0.4],
+      ["Valor2", 0.6]
+   ],
+
+   "metadata":[
+      {"colIndex":0,"colType":"String","colName":"value"},
+      {"colIndex":1,"colType":"Numeric","colName":"name2"}
+   ]
+}]]></Query>
+   </DataAccess>
+   <DataAccess access="public" connection="Teste" id="Teste" type="jsonScriptable">
+      <Name>Teste</Name>
+      <Cache duration="3600" enabled="false"/>
+      <Columns/>
+      <Parameters/>
+      <Query><![CDATA[{
+   "resultset":[
+      ["Valor", 0.7],
+      ["Valor2", 0.3]
+   ],
+
+   "metadata":[
+      {"colIndex":0,"colType":"String","colName":"value"},
+      {"colIndex":1,"colType":"Numeric","colName":"name2"}
+   ]
+}]]></Query>
+   </DataAccess>
+</CDADescriptor>
